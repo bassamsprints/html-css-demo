@@ -1,0 +1,47 @@
+body {
+  font-family: "Playfair Display", serif;
+}
+
+.benefits {
+  padding: 100px 286px 100px 286px;
+  background: #e0eff6;
+}
+
+.header {
+  font-size: 64px;
+  line-height: 85px;
+  color: #07484a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards-container {
+  display: flex;
+  gap: 232px;
+}
+
+.card {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 308px;
+}
+
+.card-header {
+  font-size: 36px;
+  line-height: 48px;
+  color: #07484a;
+}
+.card-description {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  color: #07484a;
+}
+.strong-700 {
+  font-weight: 700;
+}
